@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(29, 154, 236);
+}
+
+.container {
+  background-color: white;
+  border: 1px solid black;
+  width: 50%;
+  max-width: 34cm;
+  min-width: 316px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+#app-name {
+  align-items: center;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  margin-left: 35%;
+}
+
+#input-task {
+  position: relative;
+  background-color: rgba(245, 245, 245, 0.959);
+  padding: 1.8em 1.25em;
+  border-radius: 0.3em;
+  box-shadow: 0 1.25em 1.8em rgba(1, 24, 48, 0.15);
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  gap: 1em;
+}
+
+#new-task input {
+  font-family: "poppins", sans-serif;
+  font-size: 1em;
+  border: none;
+  border-bottom: 2px solid #d1d3d4;
+  padding: 0.8em 0.5em;
+  width: 50%;
+  margin-left: 20%;
+  margin-bottom: 0.3em;
+  font-weight: 500;
+}
+
+#new-task input:focus {
+  outline: none;
+  border-color: rgb(85, 14, 167);
+}
+#new-task button {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  background-color: rgb(85, 14, 167);
+  font-size: 1em;
+  color: white;
+  outline: none;
+  border-radius: 0.3em;
+  cursor: pointer;
+  padding: 0.8em 0.5em;
+}
+
+#tasks {
+  background-color: white;
+  position: relative;
+  margin-top: 3.8em;
+  padding: 1.8em 1.25em;
+  width: 100%;
+  box-shadow: 0 1.25em 1.5em rgba(1, 24, 48, 0.15);
+  border-radius: 0.6cm;
+}
+
+.task {
+  background-color: white;
+  padding:  0.3em 0.5em;
+  margin-top: 0.6em;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #ffffffef;
+  cursor: pointer;
+
+}
+
+.task span {
+  font-family: "poppins", sans-serif;
+  font-size: 0.3em;
+  font-weight: 400;
+}
+.last button {
+  color: #d1d3d4;
+  padding: 0.8em 0;
+  width: 2.8em;
+  border-radius: 0.3em;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.delete {
+  background-color: rgb(255, 72, 0);
+}
+edit{
+  background-color: rgba(0, 60, 255, 0.986);
+  margin-left: auto;
+  margin-right: 3em;
+
+}
+
